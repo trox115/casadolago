@@ -154,3 +154,28 @@ color:black;
     height: 300px;
   }
 }
+
+@media screen and (max-width: 470px) {
+  .small-image, .small-image2{
+    height: 350px;
+  }
+}
+.section-title{
+  height: 190px;
+  background: #fceade;
+}
+.texto{
+  text-align: justify;
+}
+.texto p{
+  margin-top:5%;
+}
+
+.texto strong{
+  font-size: 2rem;
+}
+
+
+footer{
+  background: #f8f9fa;
+}
