@@ -1,0 +1,8 @@
+.small-image{
+  background: blue;
+  min-height: 50%;
+}
+.big-image{
+  background: grey;
+  height: 500px;
+}
