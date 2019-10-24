@@ -160,3 +160,22 @@ color:black;
     height: 350px;
   }
 }
+.section-title{
+  height: 190px;
+  background: #fceade;
+}
+.texto{
+  text-align: justify;
+}
+.texto p{
+  margin-top:5%;
+}
+
+.texto strong{
+  font-size: 2rem;
+}
+
+
+footer{
+  background: #fceade;
+}
