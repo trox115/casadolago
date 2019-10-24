@@ -1,0 +1,95 @@
+body{
+  font-family: 'Dancing Script', cursive;
+}
+h2{
+  font-size: 2.8rem;
+  font-weight: 800;
+}
+p{
+  font-size: 1.5rem;
+}
+a{
+  font-weight: 600;
+}
+.small-image{
+  background: #fceade;
+  min-height: 50%;
+  overflow: hidden;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+}
+.titulo{
+  text-align: center;
+  width: 70%;
+}
+.image-bk{
+  height: 100%;
+  background-image: url("img/espaco.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  -webkit-transition: .3s ease-in-out;
+   transition: .3s ease-in-out;
+   display: flex;
+}
+.image-bk:hover{
+  background-size: 150%;
+
+}
+
+.zoom{
+  overflow: hidden;
+}
+
+.layer {
+    background-color: rgba(248, 247, 216, 0.3);
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+}
+.layer2 {
+    position: absolute;
+
+    width: 100%;
+    height: 50%;
+
+}
+.centrar{
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+.big-image{
+  background-image: url("img/casamento.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  -webkit-transition: .3s ease-in-out;
+   transition: .3s ease-in-out;
+  height: 600px;
+  overflow: hidden;
+}
+.big-image:hover{
+  background-size:130%;
+  overflow: hidden;
+
+}
+.logozinho{
+  width: 80px;
+}
+
+.rosa{
+  color: #fceade;
+border-color: #fceade;
+}
+.rosa:hover{
+  background-color: #fceade;
+border-color: #fceade;
+color:black;
+}
