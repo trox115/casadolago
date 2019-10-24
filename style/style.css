@@ -154,3 +154,9 @@ color:black;
     height: 300px;
   }
 }
+
+@media screen and (max-width: 470px) {
+  .small-image, .small-image2{
+    height: 350px;
+  }
+}
