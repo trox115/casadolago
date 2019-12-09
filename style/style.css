@@ -201,3 +201,11 @@ form{
   background: #fceade;
   color:black;
 }
+.cas{
+  background: url(./img/cas.jpg);
+  min-height: 300px;
+  background-attachment: fixed;
+  background: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
