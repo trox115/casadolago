@@ -1,0 +1,60 @@
+body,html{
+    min-height: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.image-rest{
+    background: url('./img/rest.jpg');
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+}
+
+.gastronomia{
+    background: url('./img/gastronomia.jpg');
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+}
+
+.vinhos{
+    background: url('./img/vinhos.jpg');
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+}
+
+.bar{
+    background: url('./img/bar.jpg');
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+}
+.text{
+    display: flex;
+    height: 300px;
+    align-items: center;
+    align-content: center;
+}
+
+.titulo{
+   width: 100%;
+}
+.texto{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.parallax{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
