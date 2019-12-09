@@ -58,3 +58,21 @@ html{
       background-attachment: scroll;
     }
   }
+
+  @media screen and (max-width: 992px) {
+    .text{
+      height: 350px;
+    }
+    .parallax {
+        background-attachment: scroll;
+      }
+  }
+  
+  @media screen and (max-width: 470px) {
+    .text{
+      height: 400px;
+    }
+    .parallax {
+        background-attachment: scroll;
+      }
+  }
