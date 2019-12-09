@@ -53,7 +53,7 @@ html{
     background-repeat: no-repeat;
 }
 
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-device-width: 999px) {
     .parallax {
       background-attachment: scroll;
     }
