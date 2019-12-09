@@ -161,7 +161,7 @@ color:black;
   }
 }
 .section-title{
-  height: 190px;
+  height: 100px;
   background: #fceade;
 }
 .texto{
@@ -169,6 +169,11 @@ color:black;
 }
 .texto p{
   margin-top:5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.titulo p{
+  font-family: 'Roboto', italic;
 }
 
 .texto strong{
@@ -178,4 +183,8 @@ color:black;
 
 footer{
   background: #f8f9fa;
+}
+
+.nav-item{
+  font-family: 'Roboto', sans-serif;
 }
