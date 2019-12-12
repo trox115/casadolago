@@ -76,3 +76,7 @@ html{
         background-attachment: scroll;
       }
   }
+
+  .pequeno{
+      font-size: 9px !important;
+  }
