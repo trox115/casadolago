@@ -179,7 +179,9 @@ color:black;
 .texto strong{
   font-size: 2rem;
 }
-
+.bg-light{
+  background: white;
+}
 
 footer{
   background: #f8f9fa;
