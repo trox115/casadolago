@@ -192,10 +192,10 @@ footer{
 
 .nav-item{
   font-family: 'Hind Vadodara', sans-serif;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   text-transform: uppercase;
   font-weight: 300 !important;
-  font-size: small;
+  font-size: x-small;
 }
 
 .nav-link{
