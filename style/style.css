@@ -210,7 +210,15 @@ footer{
 form{
   font-family: 'Lato', sans-serif;
 }
+.form-group input{
+    border:1px solid black;
+    border-radius:15px;
+}
 
+.form-group textarea{
+    border:1px solid black;
+    border-radius:15px;
+}
 .btn-primary{
   background: #fceade;
   color:black;
